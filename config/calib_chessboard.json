@@ -1,0 +1,11 @@
+{
+    "camera_type": [2],
+    "chessboard_size": [0.8, 0.6],
+    "chessboard_width": [11],
+    "chessboard_height": [8],
+    "chessboard_grap": [0.06],
+    "camera_matrix": [1720.5573642902884, 1725.4310071228047, 1953.549178143742, 1061.1840108704785],
+    "distortion_coeffs": [0.08092536120554537, -0.049501707005857196, 0.020142406202130876, -0.0067493332722243764],
+    "initial_external_params": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0,1],
+    "extract_radius": [0.5]
+}
