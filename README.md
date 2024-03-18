@@ -19,7 +19,9 @@
   pcl、opencv、Ceres、json
 
   mkdir build
+
   cd build 
+  
   cmake .. && make
 
 4、运行
