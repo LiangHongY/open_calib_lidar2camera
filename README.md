@@ -50,7 +50,7 @@ initial_external_params：   迭代优化给的初始化外参
 extract_radius：            提取标定板点云的半径
 
 测试说明：
-打了马赛克图片，迭代效果不理想；估计处理过的图片，角点提取有影响
+打了马赛克图片，迭代效果不理想；估计处理过的图片，角点提取有影响。因此，数据集就不公开了。
   
 数据集外参投影效果图：
 ![Image text](https://github.com/LiangHongY/calib_lidar2camera/blob/master/data/1.png)
