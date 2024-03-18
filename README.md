@@ -17,7 +17,7 @@
 3、依赖&编译
 
   pcl、opencv、Ceres、json
-  
+
   mkdir build
   cd build 
   cmake .. && make
@@ -41,16 +41,25 @@
   }
 
 camera_type ：              1 表示针孔相机（fov < 90°）  2 表示鱼眼相机（fov > 90°） [当前版本没有适配全景相机]
+
 chessboard_size ：          表示标定板的物理尺寸，注意不是棋盘格轮廓尺寸，单位 米。填写方式，opencv适配棋盘格时角点宽高方式一致
+
 chessboard_width：          表示棋盘格宽方向11个角点
+
 chessboard_height：         表示棋盘格高方向8个角点
+
 chessboard_grap ：          每个角点之间0.06米
+
 camera_matrix：             相机内参
+
 distortion_coeffs：         相机畸变系数
+
 initial_external_params：   迭代优化给的初始化外参
+
 extract_radius：            提取标定板点云的半径
 
 测试说明：
+
 打了马赛克图片，迭代效果不理想；估计处理过的图片，角点提取有影响。因此，数据集就不公开了。
   
 数据集外参投影效果图：
